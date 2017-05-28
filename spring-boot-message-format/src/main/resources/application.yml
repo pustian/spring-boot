@@ -1,0 +1,5 @@
+server:
+    port: 13101
+spring:
+    application:
+        name: spring-boot-message-format

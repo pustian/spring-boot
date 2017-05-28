@@ -11,3 +11,9 @@ spring-boot-yml-port
     application.yml 做参数使用
     在application.yml 中更改启动端口号，此处未列示例 
     该项目中更改端口 类似于 java 命令中增加 -Dserver.port=8081 参数
+
+spring-boot-message-format
+    json/form 请求返回 json 报文
+spring-boot-message-format-xml
+    form/xml 请求返回 xml/json 报文
+
