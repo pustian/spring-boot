@@ -15,11 +15,9 @@
 
 请求响应报文格式。
 # spring-boot-message-format
-
     json/form 请求返回 json 报文
 
 # spring-boot-message-format-xml
-
     form/xml 请求返回 xml/json 报文
 
     
