@@ -1,0 +1,8 @@
+project:
+    name: spring-boot-yml-port
+tianpusen:
+    user: tianpusen
+    address: 中国,上海,松江
+    relation:
+        wife: 李学楠
+        daughter: 田雨晞
