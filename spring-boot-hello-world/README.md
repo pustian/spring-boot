@@ -1,8 +1,7 @@
 # spring 默认返回json格式
-  http://localhost:8080/swagger-ui.html
 
 # restful 对于资源的具体操作类型，由HTTP动词表示。
-# 常用的HTTP动词有下面五个（括号里是对应的SQL命令）。
+  常用的HTTP动词有下面五个（括号里是对应的SQL命令）。
   GET（SELECT）：从服务器取出资源（一项或多项）。
   POST（CREATE）：在服务器新建一个资源。
   PUT（UPDATE）：在服务器更新资源（客户端提供改变后的完整资源）。
@@ -22,3 +21,5 @@
     DELETE /zoos/${id}/animals/${id}：删除某个指定动物园的指定动物
 
 # 增加swagger-ui2支持
+  http://localhost:8080/swagger-ui.html
+  可通过次出try it out做测试
