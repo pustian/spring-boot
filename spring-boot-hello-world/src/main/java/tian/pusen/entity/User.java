@@ -8,40 +8,60 @@ import java.io.Serializable;
 public class User implements Serializable{
     private static final long serialVersionUID = 1L;
 
-    private String userID;
-    private String userName;
-    private String password;
-    private String message;
+    private String id;
+    private String name;
+    private String sex;
+    private String birthday;
+    private String idNumber;
 
-    public String getUserID() {
-        return userID;
+    public String getId() {
+        return id;
     }
 
-    public void setUserID(String userID) {
-        this.userID = userID;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getName() {
+        return name;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getPassword() {
-        return password;
+    public String getSex() {
+        return sex;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 
-    public String getMessage() {
-        return message;
+    public String getBirthday() {
+        return birthday;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
+
+    public String getIdNumber() {
+        return idNumber;
+    }
+
+    public void setIdNumber(String idNumber) {
+        this.idNumber = idNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", birthday='" + birthday + '\'' +
+                ", idNumber='" + idNumber + '\'' +
+                '}';
     }
 }
