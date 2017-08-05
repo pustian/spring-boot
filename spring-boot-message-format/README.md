@@ -1,5 +1,5 @@
 spring 对http协议传输的报文
-# 报文使用form提交 参数设置查看 MockFormController
+# 报文使用form提交,json返回 参数设置查看 MockFormController
     @RequestMapping(value="/service", produces="application/json")
     @ResponseBody
     public MockResponse mockService(@ModelAttribute MockRequest mockRequest, Model model) {
