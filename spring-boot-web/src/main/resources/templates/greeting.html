@@ -6,5 +6,9 @@
 </head>
 <body>
     <p th:text="'Hello, ' + ${name} + '!'" />
+    <!-- 循环输出 -->
+    <tr th:each="employee: ${emplyees}" >
+        <p th:text="employee"/>
+    </tr>
 </body>
 </html>
