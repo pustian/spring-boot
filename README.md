@@ -14,11 +14,11 @@ http://start.spring.io/
     在application.yml 中更改启动端口号，此处未列示例 
     该项目中更改端口 类似于 java 命令中增加 -Dserver.port=8081 参数
 
-请求响应报文格式。
 # spring-boot-message-format
+    请求响应报文格式    
     json/form 请求返回 json 报文
-
 # spring-boot-message-format-xml
+    请求响应报文格式
     form/xml 请求返回 xml/json 报文
 
 # spring-boot-actuator
@@ -26,7 +26,29 @@ http://start.spring.io/
     自动配置(auto-configuration)
     一项简化配置的功能，比如在classpath中发现有spring security的jar包，则自动创建相关的bean等
 
-# 
+# spring-boot-web
+    使用Thymeleaf模板引擎渲染web视图 --- web代码中使用的是该模板
+    使用Freemarker模板引擎渲染web视图
+    使用Velocity模板引擎渲染web视图
+
+# spring-boot-jdbc
+    使用jdbcTemplate直接链接
+
+# spring-boot-jpa
+    使用hibernate jpa    
+
+# spring-boot-mybatis
+    spring-boot-mybatis0 mybatis Application配置
+    spring-boot-mybatis1 mybatis plus 配置使用
+    spring-boot-mybatis2 mybatis plus druid配置使用
+    spring-boot-mybatis3 mybatis plus druid 配置使用监控界面
+
+
+# spring-boot-swagger-ui
+    
+
+
+
 
 
 
