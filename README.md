@@ -1,5 +1,3 @@
-http://start.spring.io/
-
 # spring-boot-hello-world 
     基础的spring restful请求和返回
 
@@ -91,7 +89,11 @@ http://start.spring.io/
 
 
 
-
+http://start.spring.io/
+# 其他学习参考
+    https://github.com/spring-projects/spring-boot/tree/1.5.x/spring-boot-samples
+    
+# pom.xml 中引用
 starters(简化依赖)
 这个比较关键，方便spring去集成各类组件，比如redis、mongodb等等。
     core(security、aop)
